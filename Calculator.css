@@ -1,0 +1,62 @@
+body {
+    background:linear-gradient(to top right, red, blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    /* background-color: aqua; */
+}
+.container {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    padding: 120px;
+}
+.my-cal {
+    text-align: center;
+    background: linear-gradient( to bottom right,  red, blue);
+    padding-right: 20px;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding-right: 1px;
+}
+.calcy {
+    display: flex;
+    justify-content: end;
+}
+.my-input {
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    border: 3px solid black;
+    border-radius: 5px;
+    color: #00112c;
+    background-color: rgb(244, 208, 214);
+}
+.my-Ans-input {
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    width: 97%;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(244, 208, 214);
+}
+.btn {
+    border: 3px solid black;
+    width: 60px;
+    height: 60px;
+    margin: 10px 18.5px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background: black;
+}
+.btn-num {
+    background-color: rgb(67, 176, 176);
+    color: black;
+    /* background-color: red; */
+}
+.my-btn-clear {
+    background-color: rgba(255, 0, 0, 0.752);
+}
